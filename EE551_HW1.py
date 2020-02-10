@@ -43,8 +43,7 @@ def lists():
    import numpy as np
     A = np.array([[1, 4, 5],
          [6, 10, 11],
-         [12, 17, 38]])
-         
+         [12, 17, 38]])       
     # Collect the items in the last column of matrix A using list comprehension
     c = A[:,-1]
     # Collect only the even items of the diagonal of matrix A using list comprehension
