@@ -16,13 +16,13 @@ def numbers_and_strings():
     # Assign a string "Stevens" to a variable y
     y = "Stevens"
     # Repeat variable y 5 times
-
+    z = y*5
     # What is the length of z?
-
+    len(z)
     # Concatenate variable y with string " is good"
-
+    m= y + " is good"
     # Replace "good" with "awesome" in variable m and assign it to a new variable n
-
+    n = m.replace("good","awesome")
     return x, y, z, length, m, n
 
 
@@ -33,14 +33,17 @@ def lists():
     n = "Stevens is awesome"
 
     # Split variable n on a delimiter space into a list of substrings
-
+    p = n.split()
     # Get all the items past the first of the third substring
-
+    r = p[2][1: ]
     # Create a 3 x 3 matrix as nested list such that
     #   first row is [1, 4, 5]
     #   second row is [6, 10, 11]
     #   third row is [12, 17, 38]
-
+    c = [[1, 4, 5],
+         [6, 10, 11],
+         [12, 17, 38]]
+         
     # Collect the items in the last column of matrix A using list comprehension
 
     # Collect only the even items of the diagonal of matrix A using list comprehension
