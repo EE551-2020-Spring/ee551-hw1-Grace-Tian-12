@@ -40,7 +40,7 @@ def lists():
     #   first row is [1, 4, 5]
     #   second row is [6, 10, 11]
     #   third row is [12, 17, 38]
-   import numpy as np
+    import numpy as np
     A = np.array([[1, 4, 5],
          [6, 10, 11],
          [12, 17, 38]])       
