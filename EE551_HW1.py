@@ -63,12 +63,12 @@ def dictionaries():
     #   fruit => "apple"
     #   quantity => 4
     #   color => "green"
-    a = {'fruit':'apple', 'quantity':4, 'color':'green'}
+    f = {'fruit':'apple', 'quantity':4, 'color':'green'}
     # Get the item in dictionary f that the key "fruit" maps to
-    f = a['fruit']
+    a = f['fruit']
     # Increase the quantity of f by 1
     # IMPLEMENT IT HERE
-    a['quantity'] = 5
+    f['quantity'] = f['quantity']+1
     # Create a nested dictionary where:
     #   name => {first_name => "Grace", last_name => "Hopper"} (a dictionary)
     #   jobs => ["scientist", "engineer"] (a list)
